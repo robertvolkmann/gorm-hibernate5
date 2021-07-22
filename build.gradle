@@ -222,11 +222,7 @@ subprojects { project ->
                         username = u
                         password = p
                     }
-                    if(isGrails3PluginProject) {
-                        url  "https://repo.grails.org/grails/plugins3-snapshots-local"
-                    } else {
-                        url  "https://repo.grails.org/grails/libs-snapshots-local"
-                    }
+                    url "https://maven.pkg.github.com/robertvolkmann/gorm-hibernate5"
                 }
             }
         }
